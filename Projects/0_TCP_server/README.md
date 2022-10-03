@@ -28,6 +28,3 @@ python ./client.py
 
 ## :books: References 
     https://pymotw.com/2/socket/tcp.html
-
-## Developer
-    https://github.com/alisimran
