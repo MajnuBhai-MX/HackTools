@@ -6,9 +6,9 @@ A collection of open source and commercial tools that aid in red team operations
 -------------------------------------------------------------------------------------------------------------------------------------------
 Level 1 | Basic | Exemple
 ------------------------------------------------|------------------------------------------------|-----------------------------------------
-[0] | TCP or UDP server just to receive messages | :x:
-[1] | TCP chat server | :x:
-[2] | UDP chat server | :x:
+[0] | TCP or UDP server just to receive messages | :heavy_check_mark:
+[1] | TCP chat server | :heavy_check_mark:
+[2] | UDP chat server | :heavy_check_mark:
 [3] | Multi-threaded UDP or TCP chat server | :x:
 [4] | Server for file transfers | :x:
 [5] | Caesar Cipher tool | :x:
@@ -17,6 +17,7 @@ Level 1 | Basic | Exemple
 [8] | UDP Chat server -> The messages should be encoded with ROT13 Cipher | :x:
 [9] | Remote command execution | :x:
 [10] | Recreate the Netcat tool | :x:
+[11] | Directory Bruteforcer Tool | :heavy_check_mark:
 
 ## Adding your examples
 
