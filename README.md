@@ -18,6 +18,7 @@ Level 1 | Basic | Exemple
 [9] | Remote command execution | :x:
 [10] | Recreate the Netcat tool | :x:
 [11] | Directory Bruteforcer Tool | :heavy_check_mark:
+[12] | Simple Port Scanner | :heavy_check_mark:
 
 ## Adding your examples
 
