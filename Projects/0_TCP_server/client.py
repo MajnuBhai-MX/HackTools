@@ -1,7 +1,7 @@
 import socket
 
 # Declaring and initializing local ip address and port to be used
-localIP, localPort  = "127.0.0.1", 65432
+localIP, localPort  = "127.0.0.1", 1875
 
 #creating a TCP/IP socket
 
