@@ -2,7 +2,7 @@
 import socket
 
 localIP             = "127.0.0.1"
-localPort           = 20001
+localPort           = 1875
 bufferSize          = 1024
 msgFromServer       = "Message received on UDP Client and sending it again: "
 
