@@ -7,7 +7,7 @@ bufferSize          = 1024
 msgFromServer       = "Message received on UDP Client and sending it again: "
 
 # Create a datagram socket
-UDPServerSocket = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
+UDPServerSocket = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM,encoding='utf-8')
 
 # Bind to address and ip
 UDPServerSocket.bind((localIP, localPort))
@@ -22,4 +22,4 @@ while(True):
 
     bytesTosend = msgFromServer + message.decode('UTF-8')
     # Sending a reply to client
-    UDPServerSocket.sendto(str.encode(bytesTosend), address)
+    UDPServerSocket.sendto(str.encode(bytesTosend), address)+UDPServerSocket.recvfrom(bufferSize)
