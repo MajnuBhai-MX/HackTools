@@ -17,7 +17,7 @@ print("Server up and Listening")
 TCPServerSocket.listen(10)
 msg, address = TCPServerSocket.accept()
 
-while 1:
+while TCPServerSocket.accept():
    datafromClient = msg.recv(1024)
    msg.sendall(datafromClient)
 
